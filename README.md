@@ -1,1 +1,4 @@
-# SimulatedAnnealing
+# SimulatedAnnealing.jl
+
+Developing...
+
