@@ -1,5 +1,13 @@
 using SimulatedAnnealing
 using Base.Test
 
-# write your own tests here
-@test 1 == 2
+tests = ["stable",
+         "cooling",
+         ]
+
+println("Running tests:")
+
+for t in tests
+    println(" * $(t)")
+    include("$(t).jl")
+end
